@@ -10,11 +10,13 @@ I had originally used this script to Install Mautic at Version 2.15.1, but after
 Script Installs the Latest version of Mautic - *as of this Repo Creation: (2.16.2)
 
 I use Mautic with Cloudflare, it is recommended not to use Mautic with Cloudflare if you require user IP Address tracking, I do not for this particular use case. If for some reason you do not want to use Cloudflare you can simply disregard my CF Instructions and install the script with Let’s Encrypt cert’s. 
+
 Cloudflare DNSing
-Add Domain A Record to Cloudflare with DNS ONLY
-Switch Cloudflare to Development Mode
-Turn OFF HTTPS upgrades
-Turn OFF HTTPS Rewrites 
+
+1. Add Domain A Record to Cloudflare with DNS ONLY
+2. Switch Cloudflare to Development Mode
+3. Turn OFF HTTPS upgrades
+4. Turn OFF HTTPS Rewrites 
 
 Script Instructions:
 1. Create Digital Ocean Ubuntu 18.04 Server
