@@ -27,3 +27,9 @@ Script Instructions:
 6. Run ./mautic-installer-php7-3.sh
 7. Complete Installer SQL Security Prompts.
 8. After Install you may go re-enable the Cloudflare settings which were set to OFF, turn off Dev mode, and set SSL to Full Strict for end-end encryption. 
+
+If you encounter and error about site being offline after performing the install or after adding google analytics simply run the following commands:
+
+1. chown -R www-data /var/www/html/mautic/ 
+
+2. systemctl restart apache2.service or /etc/init.d/apache2 restart
