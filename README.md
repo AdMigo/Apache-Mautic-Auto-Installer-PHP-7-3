@@ -33,3 +33,6 @@ If you encounter and error about site being offline after performing the install
 1. chown -R www-data /var/www/html/mautic/ 
 
 2. systemctl restart apache2.service or /etc/init.d/apache2 restart
+
+
+- Just enough Tech for a Marketer to digest 🤠
